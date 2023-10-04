@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div class="tool-container">
+        <span id="pencil" class="material-symbols-outlined">
+            draw
+            <span class="pencil-tool">
+                <input type="range" min="2" max="10" value="3" class="pencil-width"/>
+               <div class="pencil-color-container">
+                <div class="red"></div>
+               <div class="blue"></div>
+               <div class="black"></div>
+               </div>
+            </span>
+        </span>
+        <span id="eraser" class="material-symbols-outlined">
+            ink_eraser
+            <span class="eraser-tool">
+                <input type="range" min="2" max="50" value="3" class="eraser-width"/>
+            </span>
+        </span>
+        <span id="download" class="material-symbols-outlined">
+            download
+        </span>
+        <span id="upload" class="material-symbols-outlined">
+            upload
+        </span>
+        <span id="undo" class="material-symbols-outlined">
+            undo
+        </span>
+        <span id="redo" class="material-symbols-outlined">
+            redo
+        </span>
+        <span id="sticky-note" class="material-symbols-outlined">
+            sticky_note
+            </span>
+    </div>
+    <canvas></canvas>
+    <script src="./script.js"></script>
+    <script src="./canvas.js"></script>
+</body>
+
+</html>
